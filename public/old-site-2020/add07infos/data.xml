@@ -1,0 +1,69 @@
+﻿<menu>
+	<item label="Les Collections">
+		<subitem label="Bagues" url="collect_frame.php?m=1&sm=3&ssm=1" target="_self"/>
+		<subitem label="Bracelets" url="collect_frame.php?m=1&sm=3&ssm=2" target="_self"/>
+		<subitem label="Boucles Oreilles" url="collect_frame.php?m=1&sm=3&ssm=3" target="_self"/>
+		<subitem label="Colliers" url="collect_frame.php?m=1&sm=3&ssm=4" target="_self"/>
+		<subitem label="Pendentifs" url="collect_frame.php?m=1&sm=3&ssm=5" target="_self"/>
+		<subitem label="Autres" url="collect_frame.php?m=1&sm=3&ssm=6" target="_self"/>
+		</item>
+		
+	<item label="Les Tendances">
+		<subitem label="Bagues" url="collect_frame.php?m=1&sm=4&ssm=1" target="_self"/>
+		<subitem label="Bracelets" url="collect_frame.php?m=1&sm=4&ssm=2" target="_self"/>
+		<subitem label="Boucles Oreilles" url="collect_frame.php?m=1&sm=4&ssm=3" target="_self"/>
+		<subitem label="Colliers" url="collect_frame.php?m=1&sm=4&ssm=4" target="_self"/>
+		<subitem label="Pendentifs" url="collect_frame.php?m=1&sm=4&ssm=5" target="_self"/>
+		<subitem label="Autres" url="collect_frame.php?m=1&sm=4&ssm=6" target="_self"/>
+		</item>
+
+	<item label="Les Exclusivités">
+		<subitem label="Bagues" url="collect_frame.php?m=1&sm=5&ssm=1" target="_self"/>
+		<subitem label="Bracelets" url="collect_frame.php?m=1&sm=5&ssm=2" target="_self"/>
+		<subitem label="Boucles Oreilles" url="collect_frame.php?m=1&sm=5&ssm=3" target="_self"/>
+		<subitem label="Colliers" url="collect_frame.php?m=1&sm=5&ssm=4" target="_self"/>
+		<subitem label="Pendentifs" url="collect_frame.php?m=1&sm=5&ssm=5" target="_self"/>
+		<subitem label="Autres" url="collect_frame.php?m=1&sm=5&ssm=6" target="_self"/>
+		</item>
+				
+	<item label="Le Neo-Beldi">
+		<subitem label="Bagues" url="collect_frame.php?m=1&sm=6&ssm=1" target="_self"/>
+		<subitem label="Bracelets" url="collect_frame.php?m=1&sm=6&ssm=2" target="_self"/>
+		<subitem label="Boucles Oreilles" url="collect_frame.php?m=1&sm=6&ssm=3" target="_self"/>
+		<subitem label="Colliers" url="collect_frame.php?m=1&sm=6&ssm=4" target="_self"/>
+		<subitem label="Pendentifs" url="collect_frame.php?m=1&sm=6&ssm=5" target="_self"/>
+		<subitem label="Autres" url="collect_frame.php?m=1&sm=6&ssm=6" target="_self"/>
+		</item>
+		
+
+	<item label="Le Coin des Amoureux">
+		<subitem label="Divers" url="collect_frame.php?m=1&sm=7&ssm=" target="_self"/>
+		</item>	
+	
+	<item label="Les Bijoux Homme">
+		<subitem label="Bagues" url="collect_frame.php?m=1&sm=8&ssm=1" target="_self"/>
+		<subitem label="Bracelets" url="collect_frame.php?m=1&sm=8&ssm=2" target="_self"/>
+		<subitem label="Colliers" url="collect_frame.php?m=1&sm=8&ssm=4" target="_self"/>
+		<subitem label="Pendentifs" url="collect_frame.php?m=1&sm=8&ssm=5" target="_self"/>
+		<subitem label="Autres" url="collect_frame.php?m=1&sm=8&ssm=6" target="_self"/>
+		</item>		
+
+	<item label="Horlogerie">
+		<subitem label="Garel" url="collect_frame.php?m=1&sm=9&ssm=" target="_self"/>
+		</item>	
+
+
+	<item label="Les Objets Precieux">
+		<subitem label="Divers" url="collect_frame.php?m=1&sm=10&ssm=" target="_self"/>
+		</item>	
+
+						
+
+</menu>
+
+
+
+
+
+
+

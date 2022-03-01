@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://hpmgroupe.com/sitemaps.xml
+Sitemap: http://hpmgroupe.com/sitemaps.xml

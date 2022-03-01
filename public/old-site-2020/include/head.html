@@ -1,0 +1,100 @@
+<!-- Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700' rel='stylesheet' type='text/css'>
+<!-- End Fonts -->
+
+<!-- Script -->
+<script type="text/javascript" language="javaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- End Script -->
+
+<!-- Framework Bootstrap -->
+<link rel="stylesheet" type="text/css" href="<?php echo HTTP_HOST;?>bootstrap/css/bootstrap.css">
+<script type="text/javascript" language="javaScript" src="<?php echo HTTP_HOST;?>bootstrap/js/bootstrap.js"></script>
+<!-- End Framework Bootstrap -->
+
+<!-- Slider -->
+
+<script type="text/javascript" src="<?php echo HTTP_HOST;?>bootstrap/js/jssor.slider.min.js"></script>
+
+<!-- End slider -->
+<!-- Menu -->
+<script type="text/javascript" language="javaScript" src="<?php echo HTTP_HOST;?>bootstrap/js/bootstrap-hover-dropdown.js"></script>
+<!-- End Menu -->	
+
+
+
+<!-- Style -->
+<link rel="stylesheet" type="text/css" href="<?php echo HTTP_HOST;?>style/global.css">
+<!-- End Style -->
+
+<!-- Google Map -->
+<script type="text/javascript" language="javaScript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" language="javaScript" src="<?php echo HTTP_HOST;?>bootstrap/js/boot-script.js"></script>
+<!-- End Google Map -->
+
+<!-- script réferences -->
+<script type="text/javascript" src="<?php echo HTTP_HOST;?>bootstrap/js/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="<?php echo HTTP_HOST;?>bootstrap/js/jquery.carouFredSel-6.2.1.js"></script>
+<script type="text/javascript">
+		$(document).ready(function() {
+			$('.slides_partners').carouFredSel({
+				responsive: true,
+				width: '100%',
+				scroll: 1,
+				prev: '#prev',
+				next: '#next',
+				auto: true,
+				mousewheel: true,
+				items: {
+					width: 109,
+					visible: {
+						min: 2,
+						max: 4
+					}
+				},
+				swipe: {
+					onMouse: true,
+					onTouch: true
+				}
+			});
+			
+				/*var pgurl = window.location.href.substr(window.location.href.lastIndexOf("fr"));
+                $(".nav-tabs a").each(function(){
+                if($(this).attr("href") == pgurl || $(this).attr("href") == '' )
+                $(".nav-tabs li").addClass("active");
+                });*/
+
+              /*var pgurl = window.location.href.substr(window.location.href.lastIndexOf("/")+1);
+              pgurl && $('ul.nav a[href="' + pgurl + '"]').tab('show');
+
+              $('.nav-tabs a').click(function (e) {
+                $(this).tab('show');
+                var scrollmem = $('body').scrollTop();
+                window.location.hash = this.hash;
+                $('html,body').scrollTop(scrollmem);
+                });*/
+
+                $(".arrow li").click(function(){
+                    $(".msg_hide").each(function(){
+                                  $(".msg_hide").slideUp("slow");      
+                                        });
+                    $(this).find(".msg_hide").css("display","block");
+                });
+
+                $("table a").click(function(){
+                    $(".offre").each(function(){
+                                  $(".offre").css("display","none");   
+                                        });
+                    var target = $(this).attr('href');
+                    $(target).css("display","block");
+                });
+		});
+	</script>
+<!-- End script réferences -->
+
+<!-- Script HTML5 -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!-- End Script HTML5 -->

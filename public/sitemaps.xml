@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://hpmgroupe.com/fr</loc>
+  <lastmod>2021-01-04T14:14:07+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://hpmgroupe.com/en</loc>
+  <lastmod>2021-01-04T14:14:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hpmgroupe.com/fr/contact.html</loc>
+  <lastmod>2021-01-04T14:14:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hpmgroupe.com/fr/groupe.html</loc>
+  <lastmod>2021-01-04T14:14:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hpmgroupe.com/fr/metiers.html</loc>
+  <lastmod>2021-01-04T14:14:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hpmgroupe.com/fr/nos_references.html</loc>
+  <lastmod>2021-01-04T14:14:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hpmgroupe.com/fr/partenaires.html</loc>
+  <lastmod>2021-01-04T14:14:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hpmgroupe.com/fr/metiers.html?</loc>
+  <lastmod>2021-01-04T14:14:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hpmgroupe.com/fr/groupe.html?</loc>
+  <lastmod>2021-01-04T14:14:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hpmgroupe.com/en/contact.html</loc>
+  <lastmod>2021-01-04T14:14:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hpmgroupe.com/en/groupe.html</loc>
+  <lastmod>2021-01-04T14:14:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hpmgroupe.com/en/metiers.html</loc>
+  <lastmod>2021-01-04T14:14:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hpmgroupe.com/en/nos_references.html</loc>
+  <lastmod>2021-01-04T14:14:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hpmgroupe.com/en/partenaires.html</loc>
+  <lastmod>2021-01-04T14:14:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hpmgroupe.com/en/metiers.html?</loc>
+  <lastmod>2021-01-04T14:14:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hpmgroupe.com/en/groupe.html?</loc>
+  <lastmod>2021-01-04T14:14:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

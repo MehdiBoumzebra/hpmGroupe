@@ -1,0 +1,61 @@
+.carousel {
+	z-index:1;
+}
+
+.carousel-fade,
+.carousel-inner,
+.carousel-inner .item {
+  	height: 100%;
+}
+
+.carousel-fade .carousel-inner .item {
+ 	 opacity: 0;
+  
+  	-webkit-transition-property: opacity;
+       -moz-transition-property: opacity;
+        -ms-transition-property: opacity;
+         -o-transition-property: opacity;
+            transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  	opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  	left: 0;
+  	opacity: 0;
+  	z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  	opacity: 1;
+}
+
+.carousel-fade .carousel-indicators {
+	margin-bottom:0;
+	bottom:27px;
+}
+
+.carousel-fade .carousel-indicators li {
+	width: 15px;
+  	height: 15px;
+	background-color:#C8C8C8;
+	border:0;
+}
+
+.carousel-fade .carousel-indicators li:hover,
+.carousel-fade .carousel-indicators .active {
+	background-color:#FF9920;
+}
+
+.carousel-fade .carousel-indicators .active {
+	width: 17px;
+  	height: 17px;
+}
+
+@media (max-width: 767px) {
+	
+}

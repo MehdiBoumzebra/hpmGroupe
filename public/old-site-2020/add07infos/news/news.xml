@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<NEWS mainAuthor="Chuck">	
+	
+<item>
+<date>20th Feburary, 2008</date>
+<author>Chuckanucka</author>
+<image>fish.jpg</image>
+<title>The ultimate xml news file</title> 
+<description>This file has been designed to be very easy to update, customised and understand. There is a huge configuation section which lets you control a large array of settings, allowing you to make changes without knowing any actionscript at all!
+The code is very well commented making this file an excellent learning resource.</description>
+</item>
+
+<item>
+<date>18th Feburary, 2008</date>
+<author>Kylie</author>
+<image>ice.jpg</image>
+<title>Automatic thumbnails</title> 
+<description>One of the smartest features of this file is its ablity to generate thumbnails. All you have to do is supply the large image and a thumbnail is produced at runtime, according to the size you set in the configuation section. No more hours spent resizing images in photoshop !
+All images have super slick preloaders and fade in on load.
+</description>
+</item>
+ 
+<item>
+<date>14th Feburary, 2008</date>
+<author>John</author>
+<image>cloud.jpg</image>
+<title>Intelligent scrollbar</title> 
+<description>Another nice feature is the intelligent scrollbar system. Hidden unless needed the slick scroll bar automatically resizes depending on the size of your news blog. There are settings to easily change the speed, easing and color of the scrollbar. Here is some dummy text to show how it works:
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Contrary to popular belief, Lorem Ipsum is not simply random text.</description>
+</item> 
+
+<item>
+<date>11th Feburary, 2008</date>
+<author>Bob</author>
+<image>wheat.jpg</image>
+<title>Automatic summaries</title> 
+<description>The summaries are automatically generated. You simply set the amount of characters you wish to display. The code is smart enough to ensure you will always end on a full word.
+Some dummy text:
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Contrary to popular belief, Lorem Ipsum is not simply random text
+</description>
+</item>
+ 
+<item>
+<date>10th Feburary, 2008</date>
+<author>Kylie</author>
+<image>swan.jpg</image>
+<title>HTML and CSS suppport</title> 
+<description><![CDATA[<p>HTML and CSS are setup for the main description text. Tags such as <b>bold</b> as well as <a href="http://www.google.com">hyperlinks</a> can be included in the XML and formatted by using the external stylesheet.</p>]]></description>
+</item>
+
+<item>
+<date>2nd Feburary, 2008</date>
+<author>Steve</author>
+<image>space.jpg</image>
+<title>Short descriptions</title> 
+<description>When your description is shorter than your maximuim character count the read more link is removed (this can be turned off).</description>
+</item>
+ 
+<item>
+<date>20th January, 2008</date>
+<author>Bob</author>
+<image>bus.jpg</image>
+<title>Clean and clear code</title> 
+<description>A lot of effort has gone into ensuring this file is easy to use and understand. The code is very well commented and the layers and library are clearly labled and organised.</description>
+</item>
+ 
+<item>
+<date>14th January, 2008</date>
+<author>Kylie</author>
+<image>cowboy.jpg</image>
+<title>Easy to update</title> 
+<description>Everything is driven via XML so the file is very easy to update and maintain. The automatic summaires and thumbnails make it even quicker to get your news out there.</description>
+</item>
+ 
+<item>
+<date>11th January, 2008</date>
+<author>John</author>
+<image>bird.jpg</image>
+<title>100% resizable</title> 
+<description>A really nice feature of this file is it has been designed in such as way that it will automatically resize and algin if you modify the size of its components. This makes adding your own personal touches much easier.</description>
+</item>
+
+</NEWS>
+

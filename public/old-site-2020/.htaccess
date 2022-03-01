@@ -1,0 +1,36 @@
+ 
+ RewriteEngine on
+ 
+
+RewriteRule ^([-a-z]*)/index.html$  index.php?lang=$1 [L]
+RewriteRule ^([-a-z]*)/presentation.html$  presentation.php?lang=$1 [L]
+RewriteRule ^([-a-z]*)/nos-metiers.html$  nos-metiers.php?lang=$1 [L]
+RewriteRule ^([-a-z]*)/nos_references.html$  nos_references.php?lang=$1 [L]
+RewriteRule ^([-a-z]*)/recrutement.html$  recrutement.php?lang=$1 [L]
+RewriteRule ^([-a-z]*)/contact.html$  contact.php?lang=$1 [L]
+RewriteRule ^([-a-z]*)/mentions-legales.html$  mentions-legales.php?lang=$1 [L]
+
+RewriteRule ^([-a-z]*)/assistance-a-maitrise-d-ouvrage.html$  			nos-metiers.php?lang=$1&page=assistance-a-maitrise-d-ouvrage [L]
+RewriteRule ^([-a-z]*)/maitrise-d-ouvrage-deleguee.html$  			nos-metiers.php?lang=$1&page=maitrise-d-ouvrage-deleguee [L]
+RewriteRule ^([-a-z]*)/maitrise-d-oeuvre.html$  			nos-metiers.php?lang=$1&page=maitrise-d-oeuvre [L]
+
+RewriteRule ^([-a-z]*)/consulting-and-project-management.html$  			nos-metiers.php?lang=$1&page=consulting-and-project-management [L]
+RewriteRule ^([-a-z]*)/technical-engineering-and-site-management.html$  			nos-metiers.php?lang=$1&page=technical-engineering-and-site-management [L]
+
+RewriteRule ^([-a-z]*)/hotel-ibis-casanearshore.html$  			hotel-ibis-casanearshore.php?lang=$1 [L]
+RewriteRule ^([-a-z]*)/hotel-ibis-rabat-agdal.html$  			hotel-ibis-rabat-agdal.php?lang=$1 [L]
+RewriteRule ^([-a-z]*)/hotel-onomo-kigali-rwanda.html$  		hotel-onomo-kigali-rwanda.php?lang=$1 [L]
+RewriteRule ^([-a-z]*)/hotel-ibis-douala-cameroun.html$  		hotel-ibis-douala-cameroun.php?lang=$1 [L]
+RewriteRule ^([-a-z]*)/siege-cimr-casablanca.html$  			siege-cimr-casablanca.php?lang=$1 [L]
+RewriteRule ^([-a-z]*)/ambassade-france-rabat.html$  			ambassade-france-rabat.php?lang=$1 [L]
+RewriteRule ^([-a-z]*)/munisys-rabat.html$  					munisys-rabat.php?lang=$1 [L]
+RewriteRule ^([-a-z]*)/lycee-excellence-mvi-benguerir.html$  	lycee-excellence-mvi-benguerir.php?lang=$1 [L]
+RewriteRule ^([-a-z]*)/universite-Mohammed5-benguerir.html$  	universite-Mohammed5-benguerir.php?lang=$1 [L]
+RewriteRule ^([-a-z]*)/chrifia-marrakech.html$  				chrifia-marrakech.php?lang=$1 [L]
+RewriteRule ^([-a-z]*)/socco-alto-tanger.html$  				socco-alto-tanger.php?lang=$1 [L]
+RewriteRule ^([-a-z]*)/zone-activite-automobile.html$  			zone-activite-automobile.php?lang=$1 [L]
+
+Redirect permanent /mo.php  	http://www.hpmgroupe.com/fr/nos-metiers/assistance-a-maitrise-d-ouvrage.html
+Redirect permanent /mod.php  	http://www.hpmgroupe.com/fr/nos-metiers/maitrise-d-ouvrage-deleguee.html
+Redirect permanent /metiers.php  	http://www.hpmgroupe.com/fr/nos-metiers/assistance-a-maitrise-d-ouvrage.html
+Redirect permanent /mentions_legales.php  	http://www.hpmgroupe.com/fr/mentions-legales.html

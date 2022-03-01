@@ -1,0 +1,31 @@
+<div id="myslide" class="carousel slide carousel-fade" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+    <?php $iCount = 0;
+         foreach ($images as $image) :
+           ?>
+        <li data-target="#myslide" data-slide-to="<?php echo $iCount;?>" <?php if($iCount == 0) echo 'class="active"';?>></li>
+ <?php $iCount++;endforeach;?>
+
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner"   role="listbox">    
+<?php $bTest = true;foreach ($images as $key =>  $image) : ?>
+
+        <div class="item <?php if($bTest == true) echo  'active'; $bTest = false;?>">
+            <img class="img-responsive" src="<?php echo HTTP_HOST;?>images/backgrounds/<?php echo $image; ?>.jpg" alt="hpmgroupr"/>
+           <?php if(isset( $msg)): ?> 
+            <div class="carousel-caption">
+                <h2>HORIZON PROJECT MANAGEMENT</h2>
+                <h2><?php echo $msg[$key];?></h2>
+            </div>
+            <?php endif;?>
+        </div>
+    
+<?php endforeach;?>
+</div>
+</div>
+
+
+ 

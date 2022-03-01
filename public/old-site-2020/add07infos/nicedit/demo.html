@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC 
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<head>
+	<title>Demo 1 : Convert All Textareas</title>
+	
+<script type="text/javascript" src="nicEdit.js"></script>
+<script type="text/javascript">
+var myNicEditor1,myNicEditor2,myNicEditor3;
+
+function window_onload(){
+	myNicEditor1 = new nicEditor({fullPanel : true, iconsPath : 'nicEditorIcons.gif'}).panelInstance('area1');
+}
+</script>
+<style type="text/css">
+<!--
+.style1 {
+	color: #FF0000;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body onLoad="window_onload()">
+
+<div id="sample">
+
+
+<h4>First Textarea</h4>
+<textarea id="area1" name="area1" cols="50"></textarea>
+<br />
+</div>
+
+
+</body>
+</html>

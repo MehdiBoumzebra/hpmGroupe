@@ -1,0 +1,8 @@
+<div class="col-md-4">
+@php
+    $parents = categoriesParent($parent=null); 
+@endphp
+@if($parents != null)
+    @include('voyager::menu.categories-menu-marque', ['items' => $parents])
+@endif
+</div>

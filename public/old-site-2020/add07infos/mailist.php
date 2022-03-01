@@ -1,0 +1,1 @@
+<iframe src="../mailist3/admin.php" width="580" height="803" allowtransparency="1" frameborder="0" scrolling="no" ></iframe>
